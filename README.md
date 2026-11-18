@@ -6,7 +6,7 @@
 
 **Source code for the video series by _ADC with Mounir_**
 
-[![Java](https://img.shields.io/badge/Java-17-58A6FF?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/17/)
+[![Java](https://img.shields.io/badge/Java-17%2B-58A6FF?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/17/)
 [![SOLID](https://img.shields.io/badge/Design-SOLID-FF6B4A?style=for-the-badge)](#-series-content)
 
 </div>
@@ -19,7 +19,7 @@ This repository contains **all the lab code** of the **SOLID Principles in Java*
 
 Every folder matches one episode. Each lab starts from code that works but **smells**, shows how a real feature request makes it break, then refactors it step by step until the change becomes easy. Open the folder, follow along with the video, run the code, break it, fix it.
 
-All examples are built around one **ride-hailing app** (`Trip`, `Rider`, `Driver`, `FareCalculator`, `Dispatcher`, `TripRepository`, `ReceiptSender`…) that grows from episode to episode, instead of abstract `Shape` / `Animal` examples, so every principle solves a problem you can recognize from real projects.
+All examples are built around one **ride-hailing app** (`Trip`, `Rider`, `Driver`, `FareCalculator`, `Dispatcher`, `TripRepository`, `ReceiptSender`…) that grows from episode to episode, instead of abstract `Shape` / `Animal` examples, so every principle solves a problem you can recognize from real projects. The code uses modern Java and runs on **Java 17+**.
 
 ---
 
@@ -59,7 +59,7 @@ SOLID_N_<Principle>/
 
 ## 🛠️ Prerequisites
 
-- **JDK 17** or later ([Eclipse Temurin](https://adoptium.net/) or [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java17))
+- **JDK 17 or later** — the code runs unchanged on Java 17, 21 and newer ([Eclipse Temurin](https://adoptium.net/) or [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java17))
 - A code editor — the series uses **VS Code** with the *Extension Pack for Java*, but any IDE works (IntelliJ IDEA, Eclipse…)
 - Comfort with **classes, interfaces and inheritance** (covered in Parts 6 and 7 of the [Java SE 17 course](https://github.com/adcwithmounir/Java17_Part_6_Object_Oriented_Basics))
 
