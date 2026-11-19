@@ -38,7 +38,7 @@ All examples are built around one **ride-hailing app** (`Trip`, `Rider`, `Driver
 | # | Folder | Episode | What you'll learn | Status |
 |:-:|---|---|---|:-:|
 | 0 | [`SOLID_0_Design_Smells`](./SOLID_0_Design_Smells) | **How Software Rots** | The seven design smells (rigidity, fragility, immobility, viscosity, needless complexity, needless repetition, opacity) and why changing requirements expose them | ✅ |
-| 1 | `SOLID_1_Single_Responsibility` | **S — Single Responsibility** | A responsibility is a reason to change; separating what changes for different reasons | 🔜 |
+| 1 | [`SOLID_1_Single_Responsibility`](./SOLID_1_Single_Responsibility) | **S — Single Responsibility** | A responsibility is a reason to change; separating what changes for different reasons | ✅ |
 | 2 | `SOLID_2_Open_Closed` | **O — Open–Closed** | Adding behavior with new code instead of changing code that already works | 🔜 |
 | 3 | `SOLID_3_Liskov_Substitution` | **L — Liskov Substitution** | When a subtype really is substitutable for its base type, and when it is not | 🔜 |
 | 4 | `SOLID_4_Interface_Segregation` | **I — Interface Segregation** | Splitting fat interfaces so clients depend only on what they use | 🔜 |
@@ -103,6 +103,11 @@ This series is inspired by, and complements:
 
 > **Agile Software Development, Principles, Patterns, and Practices**
 > Robert C. Martin — Pearson / Prentice Hall
+
+Episode 1 also quotes the author's later wording of the Single Responsibility Principle, with its reference:
+
+> **Clean Architecture: A Craftsman's Guide to Software Structure and Design**
+> Robert C. Martin — Pearson, 2017 (chapter 7)
 
 The series does not replace the book. All code, examples and explanations in this repository are original.
 
