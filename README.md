@@ -41,7 +41,7 @@ All examples are built around one **ride-hailing app** (`Trip`, `Rider`, `Driver
 | 1 | [`SOLID_1_Single_Responsibility`](./SOLID_1_Single_Responsibility) | **S — Single Responsibility** | A responsibility is a reason to change; separating what changes for different reasons | ✅ |
 | 2 | [`SOLID_2_Open_Closed`](./SOLID_2_Open_Closed) | **O — Open–Closed** | Adding behavior with new code instead of changing code that already works | ✅ |
 | 3 | [`SOLID_3_Liskov_Substitution`](./SOLID_3_Liskov_Substitution) | **L — Liskov Substitution** | When a subtype really is substitutable for its base type, and when it is not | ✅ |
-| 4 | `SOLID_4_Interface_Segregation` | **I — Interface Segregation** | Splitting fat interfaces so clients depend only on what they use | 🔜 |
+| 4 | [`SOLID_4_Interface_Segregation`](./SOLID_4_Interface_Segregation) | **I — Interface Segregation** | Splitting fat interfaces so clients depend only on what they use | ✅ |
 | 5 | `SOLID_5_Dependency_Inversion` | **D — Dependency Inversion** | Making high-level policy independent of low-level details | 🔜 |
 | 6 | NO LABS (see the video) | **SOLID Review & Practice Questions** | The five principles together, and practice questions | 🔜 |
 
